@@ -1,0 +1,118 @@
+body {
+    background-color: #202020;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 1px aqua;
+    font-weight: 900;
+}
+
+@media (max-width: 880px){
+    h1 {
+        font-size:4rem;
+    }
+}
+
+.container-fluid{
+    margin-top: 5%;
+}
+
+.xylo {
+    font-family: 'Montserrat', sans-serif;
+    color: #DBEDF3;
+    text-shadow: 2px 2px black;
+    font-weight: 900;
+}
+
+#xylo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one {
+    background-color: rgb(253, 74, 74);
+    width: 21rem;
+}
+
+.two {
+    background-color: rgb(255, 182, 45);
+    width: 20rem;
+}
+
+.three {
+    background-color: rgb(255, 255, 73);
+    width: 19rem;
+}
+
+.four {
+    background-color: rgb(0, 255, 0);
+    width: 18rem;
+}
+
+.five {
+    background-color: rgb(0, 255, 234);
+    width: 17rem;
+}
+
+.six {
+    background-color: violet;
+    width: 16rem;
+}
+
+.seven {
+    background-color: pink;
+    width: 15rem;
+}
+
+.eight {
+    background-color: rgb(253, 74, 74);
+    width: 14rem;
+}
+
+.nine {
+    background-color: rgb(255, 182, 45);
+    width: 13rem;
+}
+
+.zero {
+    background-color: rgb(255, 255, 73);
+    width: 12rem;
+}
+
+.q {
+    background-color: rgb(0, 255, 0);
+    width: 11rem;
+}
+
+.w {
+    background-color: rgb(0, 255, 234);
+    width: 10rem;
+}
+
+.e {
+    background-color: violet;
+    width: 9rem;
+}
+
+.r {
+    background-color: pink;
+    width: 8rem;
+}
+
+.t {
+    background-color: rgb(253, 74, 74);
+    width: 7rem;
+}
+
+footer {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
